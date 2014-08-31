@@ -41,7 +41,7 @@ INSTALLED_APPS = (
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -90,8 +90,8 @@ TEMPLATE_DIRS = (
 )
 
 #email config
-EMAIL_HOST = 'smtp.yeah.net'
+EMAIL_HOST = 'smtp.163.com'
 EMAIL_PORT = '25'
-EMAIL_HOST_USER = 'easytomail.yeah.net'
-EMAIL_HOST_PASSWORD = 'easytomail2014'
+EMAIL_HOST_USER = 'easytomailadmin@163.com'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
