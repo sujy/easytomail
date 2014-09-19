@@ -1,12 +1,10 @@
 easytomail
-==========
+===============
 
 django app easy to mail
 
 A Littel App.
 
-I am trying to do something with django 
+This App is use to send mail to someone.
 
-hope to learn more during it.
-
-thanks
+It's very simple app.
